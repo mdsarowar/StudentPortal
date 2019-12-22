@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">DIU</string>
+    <string name="id">Student ID *</string>
+    <string name="pass">password *</string>
+    <string name="login">Login</string>
+    <string name="reg">Registration</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="confirmpass">Confirm Password</string>
+    <string name="homepageName">Home</string>
+
+    <string name="profile">Profile</string>
+    <string name="Edprofile">Edit Profile</string>
+    <string name="pass_change">Change password</string>
+    <string name="dashb">Dashboard</string>
+    <string name="live_result">Live Result</string>
+    <string name="laptop">Laptop</string>
+    <string name="routine">Routine</string>
+    <string name="result">Result</string>
+    <string name="complain">Compalin</string>
+    <string name="blood">Blood Request</string>
+    <string name="logout">Logout</string>
+    <string name="course">Regester Course</string>
+
+    <string-array name="blood_group">
+        <item> A+ </item>
+        <item> A- </item>
+        <item> B+ </item>
+        <item> B- </item>
+        <item> O+ </item>
+        <item> O- </item>
+        <item> AB+ </item>
+        <item> AB- </item>
+    </string-array>
+
+    <string-array name="campus">
+        <item> main </item>
+        <item> parmanent </item>
+        <item> uttra </item>
+
+    </string-array>
+
+    <string-array name="batch">
+        <item> main </item>
+        <item> parmanent </item>
+        <item> uttra </item>
+
+    </string-array>
+
+</resources>

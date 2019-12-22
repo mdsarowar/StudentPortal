@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Regpage">
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/reg"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/login"
+            android:gravity="center"
+
+            ></TextView>
+
+        <EditText
+
+            android:id="@+id/RegpagName"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:gravity="center"
+            android:textSize="20sp"
+
+            ></EditText>
+
+        <EditText
+            android:id="@+id/RegpagId"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/id"
+            android:gravity="center"
+            android:textSize="20sp"
+
+            ></EditText>
+
+        <EditText
+            android:id="@+id/RegpagEmail"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:gravity="center"
+            android:textSize="20sp"
+
+            ></EditText>
+
+
+
+        <EditText
+            android:id="@+id/RegpagPass"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pass"
+            android:gravity="center"
+            android:textSize="20sp"
+
+            ></EditText>
+
+        <EditText
+            android:id="@+id/RegpagCofirmPass"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirmpass"
+            android:gravity="center"
+            android:textSize="20sp"
+
+            ></EditText>
+
+        <Button
+            android:id="@+id/RegpagButton"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reg"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/lgbackground"
+            ></Button>
+
+
+    </LinearLayout>
+
+</ScrollView>

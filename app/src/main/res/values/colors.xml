@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="red">#FF0005</color>
+    <color name="login">#4CAD56</color>
+    <color name="lgbackground">#EE0E6363</color>
+    <color name="white">#EEFFFFFF</color>
+    <color name="black">#EE000000</color>
+</resources>
